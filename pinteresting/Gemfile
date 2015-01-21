@@ -27,6 +27,7 @@ gem 'bootstrap-sass'
 
 gem 'autoprefixer-rails'
 gem 'nokogiri', '~> 1.6.5'
+gem 'devise'
 
 
 
