@@ -6,23 +6,21 @@
 #
   development:
   adapter: postgresql
-  database: 
+  database: dev_pinteresting
   host: localhost
-  pool: 5
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-  #test:
-  #adapter: 
-  #database:
-  #host: 
-  #pool: 
+  test:
+  adapter: postgresql
+  database: test_pinteresting
+  host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: 
+  database: prod_pinteresting
   host: 
 
 
