@@ -75,4 +75,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.action_mailer.default_url_options = { :host => 'http://blooming-headland-1945.herokuapp.com/' }
+  # step one of five for devise gem manual install. Note the localhost
+  # must be changed to the actual production host i.e. not left as local host
 end
