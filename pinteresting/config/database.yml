@@ -17,8 +17,8 @@
 
   production:
     adapter: postgresql
-    database: prod_pinteresting
-    host: 
+    database: [DATABASE_URL]
+    host: [HEROKU_POSTGRESQL_TEAL_URL]
 
 
 
