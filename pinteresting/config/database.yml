@@ -17,8 +17,12 @@
 
   production:
     adapter: postgresql
-    database: [DATABASE_URL]
-    host: [HEROKU_POSTGRESQL_TEAL_URL]
+    database: d1scvgpfht187
+    host: ec2-54-235-250-41.compute-1.amazonaws.com
+    user: tbsciklzqeqmwo
+    port: 5432
+    password: e19eyC_d6IPwlVlCNsi74FYl3T
+
 
 
 
