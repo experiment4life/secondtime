@@ -20,7 +20,9 @@ Rails.application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  config.serve_static_assets = false
+  #renamed static assets to static files as per heroku instructions (from the db migrate fail)
+  #config.serve_static_assets = false
+   #config.serve_static_files = false
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
@@ -76,7 +78,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { :host => 'http://blooming-headland-1945.herokuapp.com/' }
+  #config.action_mailer.default_url_options = { :host => 'http://blooming-headland-1945.herokuapp.com/' }
   # step one of five for devise gem manual install. Note the localhost
   # must be changed to the actual production host i.e. not left as local host
 end
